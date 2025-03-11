@@ -1,0 +1,163 @@
+{
+  "common": {
+    "navigation": {
+      "products": "Products",
+      "features": "Features",
+      "research": "Research",
+      "resources": "Resources",
+      "testimonials": "Testimonials",
+      "pricing": "Pricing",
+      "login": "Log in",
+      "getStarted": "Get Started"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "products": "Products",
+      "features": "Features"
+    }
+  },
+  "hero": {
+    "badge": "Educational Innovation",
+    "title": "ProaLAB: The Most Advanced Educational Future Modeler in Latin America",
+    "description": "Bridging the gap between Education and Industry through Artificial Intelligence, Natural Language Processing, Deep Learning, econometric methods, and predictive forecasting.",
+    "cta": {
+      "primary": "Request Demo",
+      "secondary": "Learn More"
+    },
+    "footnote": "The largest private effort in Latin America and the Caribbean to transform educational trajectories."
+  },
+  "features": {
+    "title": "Cutting-edge technology to model educational trajectories",
+    "description": "Advanced tools that transform data into effective educational strategies.",
+    "items": {
+      "ai": {
+        "title": "Artificial Intelligence",
+        "description": "Advanced algorithms that analyze educational patterns and predict optimal trajectories for each student."
+      },
+      "nlp": {
+        "title": "Natural Language Processing",
+        "description": "Semantic analysis of educational and labor documents to identify key competencies and training gaps."
+      },
+      "deepLearning": {
+        "title": "Deep Learning",
+        "description": "Neural networks that continuously learn from data to improve the accuracy of educational recommendations."
+      },
+      "econometrics": {
+        "title": "Econometric Methods",
+        "description": "Advanced statistical models that quantify the impact of educational interventions on labor outcomes."
+      },
+      "forecasting": {
+        "title": "Predictive Forecasting",
+        "description": "Projections of future labor demand to align current training with market needs."
+      },
+      "bigData": {
+        "title": "Educational Big Data",
+        "description": "Processing large volumes of educational and labor data to identify trends and opportunities."
+      }
+    }
+  },
+  "products": {
+    "title": "Our Advanced Solutions",
+    "description": "Cutting-edge tools to transform data into strategic decisions",
+    "simulator": {
+      "title": "Labor Scenarios Simulator",
+      "description": "Projects the labor future based on real data and industry trends.",
+      "features": [
+        "Predictive analysis of industrial sectors at the country level",
+        "Evaluation of return on investment in specific training",
+        "Identification of emerging opportunities and declining sectors",
+        "Personalized projections according to economic and social variables"
+      ],
+      "cta": "Explore Simulator"
+    },
+    "relevance": {
+      "title": "Educational Relevance",
+      "description": "Complete analysis of the relevance of all careers taught in Chile.",
+      "features": [
+        "Demand strength index by career and region",
+        "Labor market saturation risk assessment",
+        "Technological substitution risk analysis (Frey & Osborne methodology)",
+        "International trajectory index for each professional sector"
+      ],
+      "cta": "Discover Relevance"
+    },
+    "ai": {
+      "title": "Proa AI",
+      "description": "Artificial intelligence specialized in educational and labor analysis.",
+      "features": [
+        "Retrieval-Augmented Generation (RAG) on educational data",
+        "Reduction of hallucinations through source verification",
+        "Generation of personalized reports with actionable insights",
+        "Assistance in adapting to new educational technologies"
+      ],
+      "cta": "Learn about Proa AI"
+    }
+  },
+  "research": {
+    "title": "Research and Publications",
+    "description": "Sharing knowledge to transform education",
+    "lighthouse": {
+      "title": "PROA Lighthouse",
+      "description": "Free monthly technical minute with analysis of the educational and labor sector.",
+      "features": ["Analysis of current trends", "Labor market insights", "Projections and recommendations"],
+      "cta": "Subscribe"
+    },
+    "studies": {
+      "title": "Studies",
+      "description": "Detailed research on the educational and labor landscape.",
+      "features": ["Sectoral analysis", "Case studies", "Specialized reports"],
+      "cta": "View studies"
+    },
+    "reports": {
+      "title": "Methodological Reports",
+      "description": "Detailed documentation of our methodologies and processes.",
+      "features": ["Analysis frameworks", "Research processes", "Technical documentation"],
+      "cta": "Explore reports"
+    },
+    "blog": {
+      "title": "ProaLAB Blog",
+      "description": "Exploring the future of education and work",
+      "viewMore": "View more articles"
+    }
+  },
+  "pricing": {
+    "title": "Plans tailored to your needs",
+    "description": "Scalable solutions for educational institutions, governments, and companies.",
+    "institutional": {
+      "title": "Institutional",
+      "description": "Ideal for individual educational institutions.",
+      "features": ["Up to 5 administrative users", "10,000 student profiles", "Basic reports", "Technical support 5x8"],
+      "cta": "Request information",
+      "tooltip": "Perfect for getting started with ProaLAB"
+    },
+    "governmental": {
+      "title": "Governmental",
+      "description": "Perfect for education departments and regional governments.",
+      "features": [
+        "Up to 20 administrative users",
+        "50,000 student profiles",
+        "Advanced data analysis",
+        "Regional forecasting",
+        "Technical support 24/7"
+      ],
+      "cta": "Request information",
+      "tooltip": "Complete solution for government entities",
+      "popular": "Popular"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "For corporations and educational consortia.",
+      "features": [
+        "Unlimited users",
+        "Unlimited profiles",
+        "Integration with own systems",
+        "Customized predictive models",
+        "Strategic consulting",
+        "Dedicated premium support"
+      ],
+      "cta": "Contact sales",
+      "tooltip": "Customized enterprise solution"
+    }
+  }
+}
+

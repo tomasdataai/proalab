@@ -1,0 +1,168 @@
+{
+  "common": {
+    "navigation": {
+      "products": "Produtos",
+      "features": "Características",
+      "research": "Pesquisa",
+      "resources": "Recursos",
+      "testimonials": "Depoimentos",
+      "pricing": "Planos",
+      "login": "Entrar",
+      "getStarted": "Começar"
+    },
+    "breadcrumb": {
+      "home": "Início",
+      "products": "Produtos",
+      "features": "Características"
+    }
+  },
+  "hero": {
+    "badge": "Inovação Educacional",
+    "title": "ProaLAB: O Modelador de Futuros Educacionais mais Avançado da América Latina",
+    "description": "Fechando a lacuna entre Educação e Indústria através de Inteligência Artificial, Processamento de Linguagem Natural, Deep Learning, métodos econométricos e previsão preditiva.",
+    "cta": {
+      "primary": "Solicitar demo",
+      "secondary": "Saiba mais"
+    },
+    "footnote": "O maior esforço privado da América Latina e do Caribe para transformar trajetórias educacionais."
+  },
+  "features": {
+    "title": "Tecnologia de ponta para modelar trajetórias educacionais",
+    "description": "Ferramentas avançadas que transformam dados em estratégias educacionais eficazes.",
+    "items": {
+      "ai": {
+        "title": "Inteligência Artificial",
+        "description": "Algoritmos avançados que analisam padrões educacionais e preveem trajetórias ótimas para cada estudante."
+      },
+      "nlp": {
+        "title": "Processamento de Linguagem Natural",
+        "description": "Análise semântica de documentos educacionais e laborais para identificar competências-chave e lacunas formativas."
+      },
+      "deepLearning": {
+        "title": "Deep Learning",
+        "description": "Redes neurais que aprendem continuamente a partir dos dados para melhorar a precisão das recomendações educacionais."
+      },
+      "econometrics": {
+        "title": "Métodos Econométricos",
+        "description": "Modelos estatísticos avançados que quantificam o impacto de intervenções educacionais nos resultados laborais."
+      },
+      "forecasting": {
+        "title": "Previsão Preditiva",
+        "description": "Projeções de demanda laboral futura para alinhar a formação atual com as necessidades do mercado."
+      },
+      "bigData": {
+        "title": "Big Data Educacional",
+        "description": "Processamento de grandes volumes de dados educacionais e laborais para identificar tendências e oportunidades."
+      }
+    }
+  },
+  "products": {
+    "title": "Nossas Soluções Avançadas",
+    "description": "Ferramentas de ponta para transformar dados em decisões estratégicas",
+    "simulator": {
+      "title": "Simulador de Cenários Laborais",
+      "description": "Projeta o futuro laboral baseado em dados reais e tendências da indústria.",
+      "features": [
+        "Análise preditiva de setores industriais a nível país",
+        "Avaliação de retorno de investimento em formação específica",
+        "Identificação de oportunidades emergentes e setores em declínio",
+        "Projeções personalizadas segundo variáveis econômicas e sociais"
+      ],
+      "cta": "Explorar Simulador"
+    },
+    "relevance": {
+      "title": "Pertinência Educativa",
+      "description": "Análise completa da relevância de todas as carreiras ministradas no Chile.",
+      "features": [
+        "Índice de força de demanda por carreira e região",
+        "Avaliação de risco de saturação do mercado laboral",
+        "Análise de risco de substituição tecnológica (metodologia Frey & Osborne)",
+        "Índice de trajetória internacional para cada setor profissional"
+      ],
+      "cta": "Descobrir Pertinência"
+    },
+    "ai": {
+      "title": "Proa AI",
+      "description": "Inteligência artificial especializada em análise educativa e laboral.",
+      "features": [
+        "Recuperação aumentada de informação (RAG) sobre dados educativos",
+        "Redução de alucinações mediante verificação de fontes",
+        "Geração de relatórios personalizados com insights acionáveis",
+        "Assistência na adaptação a novas tecnologias educativas"
+      ],
+      "cta": "Conhecer Proa AI"
+    }
+  },
+  "research": {
+    "title": "Pesquisa e Publicações",
+    "description": "Compartilhando conhecimento para transformar a educação",
+    "lighthouse": {
+      "title": "Farol de PROA",
+      "description": "Minuta técnica mensal gratuita com análise do setor educativo e laboral.",
+      "features": ["Análise de tendências atuais", "Insights do mercado laboral", "Projeções e recomendações"],
+      "cta": "Inscrever-se"
+    },
+    "studies": {
+      "title": "Estudos",
+      "description": "Pesquisas detalhadas sobre o panorama educativo e laboral.",
+      "features": ["Análises setoriais", "Estudos de caso", "Relatórios especializados"],
+      "cta": "Ver estudos"
+    },
+    "reports": {
+      "title": "Relatórios Metodológicos",
+      "description": "Documentação detalhada de nossas metodologias e processos.",
+      "features": ["Frameworks de análise", "Processos de pesquisa", "Documentação técnica"],
+      "cta": "Explorar relatórios"
+    },
+    "blog": {
+      "title": "Blog ProaLAB",
+      "description": "Explorando o futuro da educação e do trabalho",
+      "viewMore": "Ver mais artigos"
+    }
+  },
+  "pricing": {
+    "title": "Planos adaptados às suas necessidades",
+    "description": "Soluções escaláveis para instituições educativas, governos e empresas.",
+    "institutional": {
+      "title": "Institucional",
+      "description": "Ideal para instituições educativas individuais.",
+      "features": [
+        "Até 5 usuários administrativos",
+        "10.000 perfis de estudantes",
+        "Relatórios básicos",
+        "Suporte técnico 5x8"
+      ],
+      "cta": "Solicitar informação",
+      "tooltip": "Perfeito para começar com ProaLAB"
+    },
+    "governmental": {
+      "title": "Governamental",
+      "description": "Perfeito para secretarias de educação e governos regionais.",
+      "features": [
+        "Até 20 usuários administrativos",
+        "50.000 perfis de estudantes",
+        "Análise avançada de dados",
+        "Previsão regional",
+        "Suporte técnico 24/7"
+      ],
+      "cta": "Solicitar informação",
+      "tooltip": "Solução completa para entidades governamentais",
+      "popular": "Popular"
+    },
+    "enterprise": {
+      "title": "Empresarial",
+      "description": "Para corporações e consórcios educativos.",
+      "features": [
+        "Usuários ilimitados",
+        "Perfis ilimitados",
+        "Integração com sistemas próprios",
+        "Modelos preditivos personalizados",
+        "Consultoria estratégica",
+        "Suporte premium dedicado"
+      ],
+      "cta": "Contatar vendas",
+      "tooltip": "Solução empresarial personalizada"
+    }
+  }
+}
+
