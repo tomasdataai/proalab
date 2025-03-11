@@ -34,6 +34,9 @@ export function MobileNav() {
           <Link href="#student-resources" className="text-sm font-medium hover:text-[#EE3831]">
             Recursos
           </Link>
+          <Link href="#blog" className="text-sm font-medium hover:text-[#EE3831]">
+            Blog
+          </Link>
           <Link href="#testimonials" className="text-sm font-medium hover:text-[#EE3831]">
             Testimonios
           </Link>

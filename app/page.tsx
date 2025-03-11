@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Hero } from "@/components/sections/hero"
 import { Features } from "@/components/sections/features"
 import { Products } from "@/components/sections/products"
-import { Research } from "@/components/sections/research"
+// import { Research } from "@/components/sections/research"
 import { StudentResources } from "@/components/sections/student-resources"
 import { ProaAI } from "@/components/sections/proa-ai"
 import { TechAdvantages } from "@/components/sections/tech-advantages"
@@ -24,6 +24,10 @@ import { CheckCircle2, Menu } from "lucide-react"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
+// Importar la sección de blog
+import { BlogPreview } from "@/components/sections/blog-preview"
+import { getAllBlogs, type BlogPost } from "@/lib/blog"
+
 // Add this function at the beginning of the file, before the main component
 function smoothScroll(e: React.MouseEvent<HTMLAnchorElement>, targetId: string) {
   e.preventDefault()
@@ -36,8 +40,10 @@ function smoothScroll(e: React.MouseEvent<HTMLAnchorElement>, targetId: string) 
   }
 }
 
+// En la función LandingPage, añadir la sección de blog antes de Testimonials
 export default function LandingPage() {
   const [darkMode, setDarkMode] = useState(false)
+  const [blogs, setBlogs] = useState<BlogPost[]>([])
 
   useEffect(() => {
     // Check user preference
@@ -64,6 +70,21 @@ export default function LandingPage() {
     }
   }, [darkMode])
 
+  // Cargar blogs de forma asíncrona
+  useEffect(() => {
+    async function loadBlogs() {
+      try {
+        const allBlogs = await getAllBlogs()
+        setBlogs(allBlogs.slice(0, 3))
+      } catch (error) {
+        console.error("Error loading blogs:", error)
+        setBlogs([])
+      }
+    }
+
+    loadBlogs()
+  }, [])
+
   const toggleDarkMode = () => {
     setDarkMode(!darkMode)
   }
@@ -77,9 +98,10 @@ export default function LandingPage() {
         <Products />
         <TechAdvantages />
         <UseCases />
-        <Research />
+        {/* <Research /> */}
         <StudentResources />
         <ProaAI />
+        <BlogPreview blogs={blogs} /> {/* Usamos el estado blogs */}
         <Testimonials />
         <Pricing />
         <CTA />

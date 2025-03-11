@@ -47,7 +47,7 @@ export function SiteFooter() {
               <FooterLink href="#research">Faro de PROA</FooterLink>
               <FooterLink href="#research">Estudios</FooterLink>
               <FooterLink href="#research">Reportes Metodológicos</FooterLink>
-              <FooterLink href="#research">Blog</FooterLink>
+              <FooterLink href="/blog">Blog</FooterLink>
               <FooterLink href="#student-resources">Recursos para Estudiantes</FooterLink>
             </div>
             <div className="flex flex-col gap-2">

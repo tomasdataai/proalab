@@ -69,6 +69,7 @@ export function SiteHeader({ darkMode, toggleDarkMode }: SiteHeaderProps) {
     { href: "#features", label: "Características" },
     { href: "#research", label: "Investigación" },
     { href: "#student-resources", label: "Recursos" },
+    { href: "#blog", label: "Blog" },
     { href: "#testimonials", label: "Testimonios" },
     { href: "#pricing", label: "Planes" },
   ]
