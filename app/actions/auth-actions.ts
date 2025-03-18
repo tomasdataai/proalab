@@ -5,7 +5,7 @@ import { cookies } from "next/headers"
 
 // Crear un cliente de Supabase en el servidor
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ""
-const supabaseKey = process.env.SUPABASE_ANON_KEY || ""
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ""
 const supabase = createClient(supabaseUrl, supabaseKey, {
   auth: {
     // No necesitamos especificar el dominio para las cookies
@@ -133,4 +133,3 @@ export async function getSession() {
     return { success: false, error: error.message, session: null }
   }
 }
-
