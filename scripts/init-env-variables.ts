@@ -23,12 +23,12 @@ async function initEnvVariables() {
       { key: "NEXT_PUBLIC_URL", value: process.env.NEXT_PUBLIC_URL || "", isPublic: true },
 
       // Variables privadas (solo accesibles desde el servidor)
-      { key: "SUPABASE_SERVICE_ROLE_KEY", value: process.env.SUPABASE_SERVICE_ROLE_KEY || "", isPublic: false },
-      { key: "SUPABASE_JWT_SECRET", value: process.env.SUPABASE_JWT_SECRET || "", isPublic: false },
+      { key: "NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY", value: process.env.NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY || "", isPublic: false },
+      { key: "NEXT_PUBLIC_SUPABASE_JWT_SECRET", value: process.env.NEXT_PUBLIC_SUPABASE_JWT_SECRET || "", isPublic: false },
       { key: "PERPLEXITY_API_KEY", value: process.env.PERPLEXITY_API_KEY || "", isPublic: false },
 
       // Almacenamos la clave anónima con un nombre seguro (sin NEXT_PUBLIC_)
-      { key: "SUPABASE_ANON_KEY", value: process.env.SUPABASE_ANON_KEY || "", isPublic: false },
+      { key: "NEXT_PUBLIC_SUPABASE_ANON_KEY", value: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "", isPublic: false },
 
       // Variables de base de datos PostgreSQL
       { key: "POSTGRES_URL", value: process.env.POSTGRES_URL || "", isPublic: false },
@@ -88,4 +88,3 @@ async function storeEnvVariable(client, key, value, isPublic) {
 
 // Ejecutar script
 initEnvVariables()
-

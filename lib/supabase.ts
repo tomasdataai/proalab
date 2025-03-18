@@ -9,13 +9,13 @@ let supabaseClient
 // En el servidor, usamos las variables de entorno directamente
 if (typeof window === "undefined") {
   // Estamos en el servidor
-  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY || ""
+  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY || ""
   supabaseClient = createClient(supabaseUrl, supabaseKey)
 } else {
   // En el cliente, creamos un cliente con funcionalidad limitada
   // Este cliente solo podrá realizar operaciones que no requieran autenticación
   // Para operaciones autenticadas, usaremos Server Actions
-  supabaseClient = createClient(supabaseUrl, "", {
+  supabaseClient = createClient(supabaseUrl, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "", {
     auth: {
       persistSession: true,
       autoRefreshToken: true,
@@ -32,9 +32,9 @@ export function getAdminClient() {
     throw new Error("Admin client can only be used on the server")
   }
 
-  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || ""
+  const serviceKey = process.env.NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY || ""
   if (!serviceKey) {
-    throw new Error("SUPABASE_SERVICE_ROLE_KEY is not defined")
+    throw new Error("NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY is not defined")
   }
 
   return createClient(supabaseUrl, serviceKey, {
@@ -49,4 +49,3 @@ export function getAdminClient() {
 export async function initSupabaseClient() {
   // Función vacía para mantener compatibilidad
 }
-
