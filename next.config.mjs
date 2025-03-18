@@ -15,11 +15,21 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    domains: ['proalab.cloud'],
   },
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
+  },
+  // Configuración para el dominio proalab.cloud
+  async rewrites() {
+    return [
+      {
+        source: '/:path*',
+        destination: '/:path*',
+      },
+    ];
   },
 }
 
